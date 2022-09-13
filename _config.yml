@@ -97,9 +97,9 @@ content:
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: Pontifícia Universidade Católica do Paraná - PUCPR
+        sub_title: Information Systems Baschelor
+        caption: 2016 - 2022
         quote: >
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
