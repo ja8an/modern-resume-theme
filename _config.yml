@@ -12,7 +12,7 @@ email: contact@jean.dev
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: https://jean.dev
+#website: https://jean.dev
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -51,14 +51,14 @@ linkedin_username: jeannunes
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+#about_content: |
+#  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+#  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+#    - Lists
+#    - Tables
+#    - <a href="google.com">Links</a>
+#    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
@@ -85,14 +85,39 @@ content:
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+        title: PrimeIT
+        sub_title: System Analist
+        caption: 2022 - present
+        link: https://primeit.pt
+        #quote: >
+         # Short description of the company (optional)
+        #description: | # this will include new lines to allow paragraphs
+         # Description of role
+      - layout: right
+        title: KMM Engenharia de Sistemas
+        sub_title: System Analist
+        caption: 2021 - 2022
+        link: https://www.kmm.com.br
+      - layout: right
+        title: Grupo Marista
+        sub_title: Java developer
+        caption: 2016 - 2017
+        link: https://www.grupomarista.org.br
+      - layout: right
+        title: Easy Wait
+        sub_title: Developer
+        caption: 2017 - 2019
+        link: https://www.easywait.com.br
+      - layout: right
+        title: TOTVS
+        sub_title: Dev Consultant
+        caption: 2016 - 2017
+        link: https://www.totvs.com/unidade/totvs-curitiba/
+      - layout: right
+        title: Lionbridge
+        sub_title: Quality Advisor
+        caption: 2016
+        link: https://www.lionbridge.com/
   - title: Education
     layout: list
     content:
@@ -100,16 +125,16 @@ content:
         title: Pontifícia Universidade Católica do Paraná - PUCPR
         sub_title: Information Systems Baschelor
         caption: 2016 - 2022
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+        #quote: >
+#          Short institution or course description (optional)
+#        description: | # this will include new lines to allow paragraphs
+          #Description of qualification
+#  - title: A Little More About Me
+    #layout: text
+    #content: | # this will include new lines to allow paragraphs
+      #This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+#
+      #Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
